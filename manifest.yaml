@@ -7,7 +7,7 @@ credentials: true
 builder:
   name: s2i
   params:
-    builder: lyft/s2ipythonlibrary:33c3858ae5c7dee41a02ede081071a230c234049
+    builder: lyft/s2ipythonlibrary:c225a3dfae6bb8486ed86ed115d3076fb4885946
 deploy:
   - name: staging
     legacy: true
